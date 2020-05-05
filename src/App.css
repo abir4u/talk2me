@@ -53,6 +53,13 @@
   padding: 20px;
 }
 
+.App-footer{
+
+}
+.App-header{
+
+}
+
 .App {
   display: flex;
   flex-direction: column;

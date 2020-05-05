@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import Page from "./components/PageBody/Page";
+import UserList from "./components/userlist";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <Page />
+      <Navbar />
+      <UserList />
       <div style={{ flexGrow: 1 }}></div>
     </div>
   );
